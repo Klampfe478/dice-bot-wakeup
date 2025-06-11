@@ -18,4 +18,3 @@ jobs:
       - name: "Optional: Status loggen"
         run: |
           echo "📡 Ping wurde gesendet: $(date)"
-

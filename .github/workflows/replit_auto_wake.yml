@@ -8,6 +8,8 @@ on:
 jobs:
   ping_bridge:
     runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Berlin
     steps:
       - name: Bridge-URL aufrufen (Vercel Ping)
         run: |

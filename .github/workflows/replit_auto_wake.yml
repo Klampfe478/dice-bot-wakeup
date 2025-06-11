@@ -15,6 +15,6 @@ jobs:
           https://317797e1-89aa-42d2-a9b6-c25cd8a0c982-00-3s387r4cb4eli.riker.replit.dev/ || \
           echo "Bot scheint offline zu sein - Wakeup-Versuch schlägt fehl."
 
-      - name: Optional: Status loggen
+      - name: "Optional: Status loggen"
         run: |
           echo "Ping wurde gesendet: $(date)"

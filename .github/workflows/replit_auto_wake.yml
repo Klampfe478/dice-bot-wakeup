@@ -15,7 +15,7 @@ jobs:
           https://wake-bot.vercel.app/api/ping || \
           echo "⚠️ Bridge-Ping fehlgeschlagen – Bot evtl. offline"
 
-      - name: Optional: Status loggen
+      - name: "Optional: Status loggen"
         run: |
           echo "📡 Ping wurde gesendet: $(date)"
 
